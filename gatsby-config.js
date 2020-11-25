@@ -26,4 +26,10 @@ export const plugins = [
       icon: `src/images/gatsby-icon.png`,
     },
   },
+  {
+    resolve: `gatsby-plugin-s3`,
+    options: {
+      bucketName: 'jbz.dev',
+    },
+  },
 ];
